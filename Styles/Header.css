@@ -1,0 +1,23 @@
+@import url("./Initial.css");
+
+.Header {
+  display: flex;
+  padding: 0 100px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  font-family: var(--font-mono);
+  height: 80px;
+}
+
+.Header ul {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Header ul li {
+  color: var(--font-color-light);
+  list-style: none;
+}
