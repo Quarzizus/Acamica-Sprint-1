@@ -5,11 +5,13 @@
   padding: 0 100px;
   align-items: center;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 16px;
   font-family: var(--font-mono);
   height: 80px;
 }
-
+.Header img {
+  width: 36px;
+}
 .Header ul {
   width: 40%;
   display: flex;
