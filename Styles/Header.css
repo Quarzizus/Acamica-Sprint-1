@@ -10,16 +10,28 @@
   height: 80px;
 }
 .Header img {
-  width: 36px;
+  width: 2em;
 }
 .Header ul {
-  width: 40%;
+  width: 400px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .Header ul li {
-  color: var(--font-color-light);
   list-style: none;
+}
+.Header ul li a {
+  color: var(--font-color-light);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .Header {
+    padding: 0 16px;
+  }
+  .Header ul {
+    display: none;
+  }
 }
