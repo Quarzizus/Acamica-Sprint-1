@@ -1,0 +1,41 @@
+@import url("./Initial.css");
+
+.Topicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 450px;
+  max-height: auto;
+}
+.Topicos h2 {
+  width: 70%;
+  font-family: var(--font-sans);
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 60px;
+}
+.Topicos_item-container {
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.Topicos .Topicos_item-container .Topicos_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Topicos .Topicos_item-container .Topicos_item img {
+}
+.Topicos .Topicos_item-container .Topicos_item h4 {
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 24px;
+}
+
+@media screen and (max-width: 540px) {
+  .Topicos h2 {
+    font-size: 36px;
+    width: 92%;
+  }
+}
