@@ -7,7 +7,7 @@
   justify-content: flex-end;
   position: relative;
 }
-.Legado_img {
+.Legado .Legado_img {
   width: 420px;
   position: absolute;
   top: -150px;
@@ -28,4 +28,30 @@
   font-family: var(--font-mono);
   font-weight: lighter;
   line-height: 24px;
+}
+
+@media screen and (max-width: 540px) {
+  .Legado {
+    width: 92%;
+    height: 850px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .Legado .Legado_img {
+    max-width: 350px;
+    max-height: 519px;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 175px);
+  }
+  .Legado .Legado_info {
+    width: 100%;
+  }
+  .Legado .Legado_info h2 {
+    font-size: 36px;
+  }
+  .Legado .Legado_info p {
+    font-size: 14px;
+  }
 }

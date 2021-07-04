@@ -9,7 +9,6 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  position: relative;
 }
 .Episodios h2 {
   align-self: flex-start;
@@ -32,7 +31,7 @@
   height: 280px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .Episodios {
     clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
     padding: 0;
