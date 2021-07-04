@@ -1,0 +1,31 @@
+@import url("./Initial.css");
+
+.Legado {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.Legado_img {
+  width: 420px;
+  position: absolute;
+  top: -150px;
+  left: 0px;
+}
+.Legado .Legado_info {
+  width: 46%;
+  height: 400px;
+}
+.Legado .Legado_info h2 {
+  font-size: 48px;
+  font-family: var(--font-sans);
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.Legado .Legado_info p {
+  font-size: 16px;
+  font-family: var(--font-mono);
+  font-weight: lighter;
+  line-height: 24px;
+}

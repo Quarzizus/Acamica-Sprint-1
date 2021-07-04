@@ -2,17 +2,18 @@
 
 .Episodios {
   background: var(--gradient);
-  height: 1000px;
+  height: 1050px;
   clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  position: relative;
 }
 .Episodios h2 {
   align-self: flex-start;
-  margin-left: 100px;
+  margin-left: 200px;
   font-family: var(--font-sans);
   color: white;
   font-size: 50px;
@@ -20,13 +21,14 @@
 }
 .Episodios .Episodios_container {
   display: grid;
+  width: 87%;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: auto;
-  width: 100%;
   justify-items: center;
+  gap: 4%;
+  place-content: center;
 }
 .Episodios .Episodios_container iframe {
-  width: 80%;
+  width: 100%;
   height: 280px;
 }
 
@@ -34,17 +36,18 @@
   .Episodios {
     clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
     padding: 0;
-    height: 1160px;
+    height: 1224px;
   }
   .Episodios h2 {
     font-size: 36px;
-    margin: 0 0 20px 5%;
+    margin: -100px 0 80px 3%;
   }
   .Episodios .Episodios_container {
+    width: 93%;
     grid-template-columns: 1fr;
   }
   .Episodios .Episodios_container iframe {
-    margin-bottom: -40px;
-    width: 95%;
+    margin-bottom: -65px;
+    width: 100%;
   }
 }
