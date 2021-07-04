@@ -1,0 +1,40 @@
+.Novedades {
+  height: 512px;
+  background: var(--gradient);
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Novedades h2 {
+  font-size: 48px;
+  font-family: var(--font-sans);
+  font-weight: normal;
+  color: white;
+  text-align: center;
+}
+
+.Novedades button {
+  width: 345px;
+  height: 55px;
+  border: none;
+  background: var(--color-button);
+  font-family: var(--font-mono);
+}
+
+@media screen and (max-width: 540px) {
+  .Novedades {
+    height: 341px;
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+    justify-content: space-evenly;
+  }
+  .Novedades h2 {
+    width: 60%;
+    font-size: 36px;
+    margin-bottom: -10px;
+  }
+  .Novedades button {
+    width: 92%;
+  }
+}
