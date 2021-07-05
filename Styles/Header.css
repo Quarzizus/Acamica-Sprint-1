@@ -9,6 +9,7 @@
   font-family: var(--font-mono);
   height: 80px;
 }
+
 .Header img {
   width: 2em;
 }
@@ -30,6 +31,10 @@
 @media screen and (max-width: 540px) {
   .Header {
     padding: 0 16px;
+    height: 50px;
+  }
+  .Header img {
+    width: 24px;
   }
   .Header ul {
     display: none;
