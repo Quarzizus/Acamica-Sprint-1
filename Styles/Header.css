@@ -27,6 +27,15 @@
   color: var(--font-color-light);
   text-decoration: none;
 }
+.Header ul li a:hover {
+  color: var(--color-button);
+  text-decoration: line-through;
+}
+
+.Header ul li a:active {
+  color: #060a24 56%;
+  text-decoration: line-through;
+}
 
 @media screen and (max-width: 540px) {
   .Header {

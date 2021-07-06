@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/31a8b022dd.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="./Styles/Normalize.css" />
     <link rel="stylesheet" href="./Styles/Initial.css" />
     <link rel="stylesheet" href="./Styles/Header.css" />
@@ -25,19 +21,20 @@
     <header class="Header">
       <img src="./Images/Svg/logo.svg" alt="" />
       <button class="Header_menu">
-        <i class="fas fa-bars"></i>
+        <img src="./Images/Menu/menu.svg" alt="" class="Menu_image" />
+        <img src="./Images/Menu/cancel.svg" alt="" class="Menu_image-cancel" />
         <div class="Menu_Options">
-          <a href="">EPISODIOS</a>
-          <a href="">NOSOSTROS</a>
-          <a href="">ENTREVISTAS</a>
-          <a href="">TOPICOS</a>
+          <a href="#episodios">EPISODIOS</a>
+          <a href="#nosotros">NOSOTROS</a>
+          <a href="#entrevistas">ENTREVISTAS</a>
+          <a href="#topicos">TOPICOS</a>
         </div>
       </button>
       <ul>
         <li><a href="#episodios">EPISODIOS</a></li>
-        <li>NOSOSTROS</li>
-        <li>ENTREVISTAS</li>
-        <li>TOPICOS</li>
+        <li><a href="#nosotros">NOSOTROS</a></li>
+        <li><a href="#entrevistas">ENTREVISTAS</a></li>
+        <li><a href="#topicos">TOPICOS</a></li>
       </ul>
     </header>
     <div class="Header_menu-h"></div>
@@ -82,7 +79,7 @@
         ></iframe>
       </section>
     </section>
-    <section class="Legado">
+    <section class="Legado" id="nosotros">
       <article class="Legado_info">
         <img src="./Images/phone.webp" alt="phone" class="Legado_img" />
         <h2>De dónde venimos</h2>
@@ -98,7 +95,7 @@
         </p>
       </article>
     </section>
-    <section class="Invitadas">
+    <section class="Invitadas" id="entrevistas">
       <h2>Invitadas/os estelares</h2>
       <img src="./Images/Girls/bouman.webp" alt="" />
       <img src="./Images/Girls/eniac.webp" alt="" />
@@ -107,7 +104,7 @@
       <img src="./Images/Girls/susan.webp" alt="" />
       <img src="./Images/Girls/univac.webp" alt="" />
     </section>
-    <section class="Topicos">
+    <section class="Topicos" id="topicos">
       <h2>Algunos de nuestros temas</h2>
       <div class="Topicos_item-container">
         <article class="Topicos_item">
