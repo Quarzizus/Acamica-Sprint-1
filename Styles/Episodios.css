@@ -50,3 +50,11 @@
     width: 100%;
   }
 }
+
+/* Optional */
+
+@media screen and (min-width: 541px) and (max-width: 1000px) {
+  .Episodios h2 {
+    margin-left: 100px;
+  }
+}

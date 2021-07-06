@@ -59,3 +59,31 @@
     font-size: 14px;
   }
 }
+
+@media screen and (min-width: 541px) and (max-width: 720px) {
+  .Legado .Legado_info h2 {
+    font-size: 40px;
+  }
+  .Legado .Legado_info p {
+    line-height: 19px;
+    font-size: 100%;
+    font-weight: lighter;
+  }
+}
+/* Optional */
+@media screen and (min-width: 541px) and (max-width: 1000px) {
+  .Legado {
+    justify-content: flex-end;
+    margin-top: -120px;
+  }
+  .Legado .Legado_img {
+    width: 55%;
+    position: absolute;
+    top: -40px;
+    left: -50px;
+  }
+  .Legado .Legado_info {
+    width: 46%;
+    height: 400px;
+  }
+}
