@@ -30,3 +30,9 @@ a:active {
   color: #060a24 56%;
   text-decoration: line-through;
 }
+
+i,
+button,
+img {
+  cursor: pointer;
+}
