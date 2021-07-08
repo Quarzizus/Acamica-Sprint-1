@@ -22,8 +22,10 @@
   align-items: center;
   justify-content: space-between;
 }
-
-.Footer ul i {
+.Footer ul a {
+  color: black;
+}
+.Footer ul a i {
   width: 18px;
 }
 .Footer ul i:hover {
