@@ -1,19 +1,16 @@
 language: node_js
+node_js:
+  - "12"
 cache:
   directories:
     - ~/.npm
-node_js:
-  - "12"
 git:
   depth: 3
+
 deploy:
   provider: pages
-  edge: true
-  cleanup: true
-  keep-history: true
+  skip-cleanup: true
   github-token: $GITHUB_TOKEN_SPRINT
-  local-dir: /
-  target-branch: gh-pages
   commit_message: "Deploy Release"
   on:
-    branch: master
+    branch: gh-pages
